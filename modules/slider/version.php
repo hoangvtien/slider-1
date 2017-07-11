@@ -12,17 +12,13 @@ if (!defined('NV_ADMIN') or !defined('NV_MAINFILE'))
     die('Stop!!!');
 
 $module_version = array(
-    'name' => 'Employee',
-    'modfuncs' => 'main,content,rss,detail,search',
+    'name' => 'Slider',
+    'modfuncs' => '',
     'is_sysmod' => 0,
     'virtual' => 1,
-    'version' => '4.1.01',
-    'date' => 'Sun, 16 Apr 2017 03:03:39 GMT',
+    'version' => '4.1.02',
+    'date' => 'Tuesday, July 11, 2017 11:49:06 AM',
     'author' => 'PHAN TAN DUNG (phantandung92@gmail.com)',
     'note' => '',
-    'uploads_dir' => array(
-        $module_upload,
-        $module_upload . '/files',
-        $module_upload . '/images'
-    )
+    'uploads_dir' => array($module_upload)
 );
